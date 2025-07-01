@@ -11,7 +11,7 @@ function BootingScreen(props) {
                     : <img width="40px" height="40px" className={" w-10 " + (props.visible ? " animate-spin " : "")} src="./themes/Yaru/status/process-working-symbolic.svg" alt="Ubuntu Process Symbol" />)}
             </div>
             <img width="200px" height="100px" className="md:w-1/5 w-1/2" src="./themes/Yaru/status/ubuntu_white_hex.svg" alt="Ubuntu Name" />
-            <div className="text-white mb-4">
+            <div className="text-white mb-4" suppressHydrationWarning>
                 
                 <a className="underline" href="https://www.linkedin.com/in/sarvesh-shelgaonkar-04a1b8248/" rel="noreferrer noopener" target="_blank">linkedin</a>
                 <span className="font-bold mx-1">|</span>
