@@ -1,0 +1,9 @@
+FREE TO USE
+funding:
+  github: true
+  patreon: true
+  open_collective: true
+  ko_fi: true
+  custom:
+    - type: "github"
+      url: "
