@@ -52,10 +52,6 @@ NEXT_PUBLIC_SERVICE_ID = 'YOUR_SERVICE_ID'
 
 into it. Replace \*your user id and your service ID with your values in your EmailJS service.
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Sarvesh-Shelgaonkar/sarvesh-portfolio&type=Date)](https://star-history.com/#Sarvesh-Shelgaonkar/sarvesh-portfolio&Date)
-
 ## This project was made using Create Next App! Here is the scripts that u can run.
 
 ### `npm start`
