@@ -8,7 +8,7 @@ if (TRACKING_ID) {
   ReactGA.initialize(TRACKING_ID);
 }
 
-const url = `https://portfolio-ubuntu.onrender.com/`;
+const url = `https://portfolio-ubuntu.onrender.com`;
 const interval = 30000;
 
 function reloadWebsite() {
