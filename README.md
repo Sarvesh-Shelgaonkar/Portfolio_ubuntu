@@ -3,22 +3,11 @@
 This is a personal portfolio website of Sarvesh Shelgaonkar with Ubuntu 20.04 theme, made using Next.js & Tailwind CSS.
 Features include interactive desktop environment, project showcase, skills display, and contact form.
 
-## Updated Repository Links
-- **PrimeEstate Solutions**: https://github.com/Sarvesh-Shelgaonkar/mern-estate
-- **TradeForge**: https://github.com/Sarvesh-Shelgaonkar/TradeForge  
-- **AI SQL Generator**: https://github.com/vidhikoul/TechOptimizers
-- **WanderLust**: https://github.com/Sarvesh-Shelgaonkar/WanderLust
-- **Simon Game**: https://github.com/Sarvesh-Shelgaonkar/Simon-Game
-
 ## About Me
 - **Name**: Sarvesh Vivek Shelgaonkar
 - **Role**: Full Stack Developer
 - **Education**: 
-  - B.E. Computer Engineering at PICT (2022-2026, SGPA: 9.43)
-  - HSC from SVJ College, Maharashtra Board (85%)
-  - SSC from Central Public School, CBSE Board (90.4%)
-- **Expertise**: MERN Stack, AI-powered applications
-- **Achievements**: Top 5 in Inspiron 4.0, 250+ coding problems solved
+  - B.E. Computer Engineering at PICT (2022-2026)
 
 ## Running Locally
 To run this on localhost:
