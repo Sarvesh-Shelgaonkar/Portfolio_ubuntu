@@ -109,7 +109,7 @@ function About() {
                 <li className=" list-pc">I'm pursuing <span className=" font-medium">B.E. in Computer Engineering</span> at Pune Institute of Computer Technology (PICT) with a SGPA of 9.43. I've completed my Frontend Developer internship at <u className=' cursor-pointer '> <a href="https://pict.edu/" target={"_blank"}>PICT</a> </u> (Jan-Mar 2024), and I'm passionate about Full Stack Development with expertise in MERN stack! ( Hit me up <a className='text-underline' href='mailto:sarveshshelgaonkar864@gmail.com'>sarveshshelgaonkar864@gmail.com</a> )</li>
                 <li className=" mt-3 list-building"> I enjoy building scalable web applications that solve real-world problems. As Marketing Head of PASC, I boosted event attendance by 40% and led social initiatives reaching 10,000+ people.</li>
                 <li className=" mt-3 list-time"> When I am not coding my next project, I love solving coding challenges (250+ problems solved), playing chess, or working on AI-powered applications with Azure deployment.</li>
-                <li className=" mt-3 list-star"> I've secured top positions in national hackathons including Top 5 in Inspiron 4.0 among 1100+ teams, Top 3 at Impetus & Concepts, and certifications in DSA, C++, Java!</li>
+                <li className=" mt-3 list-star"> I've secured top positions in national hackathons including Top 5 in Inspiron 4.0 among 1100+ teams, Top 3 at Impetus & Concepts, and recently achieved Semifinalist positions in Adobe Hackathon 2025 for innovative solution development and Walmart Sparkathon 2025 showcasing exceptional problem-solving abilities. Additionally, I hold certifications in DSA, C++, Java!</li>
             </ul>
         </>
     )
