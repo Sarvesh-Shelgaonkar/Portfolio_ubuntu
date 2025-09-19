@@ -93,25 +93,25 @@ export const displayAboutSarvesh = () => {
 
 function About() {
     return (
-        <>
-            <div className="w-20 md:w-28 my-4 bg-white rounded-full">
+        <div className="h-full overflow-y-auto px-2 py-4">
+            <div className="w-20 md:w-28 mx-auto bg-white rounded-full">
                 <img className="w-full" src="./images/logos/bitmoji.png" alt="Sarvesh Shelgaonkar Logo" />
             </div>
-            <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
+            <div className="mt-2 md:mt-4 text-lg md:text-2xl text-center px-1">
                 <div>my name is <span className="font-bold">Sarvesh Shelgaonkar</span> ,</div>
                 <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Full Stack Developer!</span></div>
             </div>
-            <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
+            <div className="mt-2 md:mt-4 relative pt-px bg-white w-32 md:w-48 mx-auto">
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
-            <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm pursuing <span className=" font-medium">B.E. in Computer Engineering</span> at Pune Institute of Computer Technology (PICT) with a SGPA of 9.43. I've completed my Frontend Developer internship at <u className=' cursor-pointer '> <a href="https://pict.edu/" target={"_blank"}>PICT</a> </u> (Jan-Mar 2024), and I'm passionate about Full Stack Development with expertise in MERN stack! ( Hit me up <a className='text-underline' href='mailto:sarveshshelgaonkar864@gmail.com'>sarveshshelgaonkar864@gmail.com</a> )</li>
-                <li className=" mt-3 list-building"> I enjoy building scalable web applications that solve real-world problems. As Marketing Head of PASC, I boosted event attendance by 40% and led social initiatives reaching 10,000+ people.</li>
-                <li className=" mt-3 list-time"> When I am not coding my next project, I love solving coding challenges (250+ problems solved), playing chess, or working on AI-powered applications with Azure deployment.</li>
-                <li className=" mt-3 list-star"> I've secured top positions in national hackathons including Top 5 in Inspiron 4.0 among 1100+ teams, Top 3 at Impetus & Concepts, and recently achieved Semifinalist positions in Adobe Hackathon 2025 for innovative solution development and Walmart Sparkathon 2025 showcasing exceptional problem-solving abilities. Additionally, I hold certifications in DSA, C++, Java!</li>
+            <ul className="mt-2 md:mt-4 leading-tight tracking-tight text-xs md:text-base w-full emoji-list px-2">
+                <li className="list-pc mb-2">I'm pursuing <span className="font-medium">B.E. in Computer Engineering</span> at Pune Institute of Computer Technology (PICT) with a SGPA of 9.43. I've completed my Frontend Developer internship at <u className='cursor-pointer'> <a href="https://pict.edu/" target={"_blank"}>PICT</a> </u> (Jan-Mar 2024), and I'm passionate about Full Stack Development with expertise in MERN stack! ( Hit me up <a className='text-underline' href='mailto:sarveshshelgaonkar864@gmail.com'>sarveshshelgaonkar864@gmail.com</a> )</li>
+                <li className="mt-2 list-building mb-2"> I enjoy building scalable web applications that solve real-world problems. As Marketing Head of PASC, I boosted event attendance by 40% and led social initiatives reaching 10,000+ people.</li>
+                <li className="mt-2 list-time mb-2"> When I am not coding my next project, I love solving coding challenges (250+ problems solved), playing chess, or working on AI-powered applications with Azure deployment.</li>
+                <li className="mt-2 list-star mb-4"> I've secured top positions in national hackathons including Top 5 in Inspiron 4.0 among 1100+ teams, Top 3 at Impetus & Concepts, and recently achieved Semifinalist positions in Adobe Hackathon 2025 for innovative solution development and Walmart Sparkathon 2025 showcasing exceptional problem-solving abilities. Additionally, I hold certifications in DSA, C++, Java!</li>
             </ul>
-        </>
+        </div>
     )
 }
 
@@ -125,32 +125,46 @@ function Education() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
-                <li className="list-disc">
-                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Pune Institute of Computer Technology (PICT)
+            
+            {/* Main content with image */}
+            <div className="flex flex-col lg:flex-row items-start justify-start w-full mt-4 gap-6">
+                {/* Left side - Education List */}
+                <div className="w-full lg:w-3/5 flex-shrink-0">
+                    <ul className="mt-4 ml-4 px-0 md:px-1">
+                        <li className="list-disc">
+                            <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+                                Pune Institute of Computer Technology (PICT)
+                            </div>
+                            <div className=" text-sm text-gray-400 mt-0.5">2022 - 2026</div>
+                            <div className=" text-sm md:text-base">B.E. in Computer Engineering</div>
+                            <div className="text-sm text-gray-300 font-bold mt-1">SGPA &nbsp; 9.43/10</div>
+                        </li>
+                        <li className="list-disc mt-5">
+                            <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+                                SVJ College
+                            </div>
+                            <div className=" text-sm text-gray-400 mt-0.5">June 2020 - March 2022</div>
+                            <div className=" text-sm md:text-base">HSC - Maharashtra Board</div>
+                            <div className="text-sm text-gray-300 font-bold mt-1">Percentage &nbsp; 85%</div>
+                        </li>
+                        <li className="list-disc mt-5">
+                            <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+                                Central Public School
+                            </div>
+                            <div className=" text-sm text-gray-400 mt-0.5">Till March 2020</div>
+                            <div className=" text-sm md:text-base">SSC - CBSE Board</div>
+                            <div className="text-sm text-gray-300 font-bold mt-1">Percentage &nbsp; 90.4%</div>
+                        </li>
+                    </ul>
+                </div>
+                
+                {/* Right side - Your Image */}
+                <div className="w-full lg:w-2/5 flex justify-center lg:justify-center">
+                    <div className="w-48 md:w-56 lg:w-72 h-96 md:h-[28rem] lg:h-[32rem] flex-shrink-0">
+                        <img className="w-full h-full object-cover rounded-lg" src="./images/logos/my.jpg" alt="Sarvesh Shelgaonkar" />
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2022 - 2026</div>
-                    <div className=" text-sm md:text-base">B.E. in Computer Engineering</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">SGPA &nbsp; 9.43/10</div>
-                </li>
-                <li className="list-disc mt-5">
-                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        SVJ College
-                    </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">June 2020 - March 2022</div>
-                    <div className=" text-sm md:text-base">HSC - Maharashtra Board</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">Percentage &nbsp; 85%</div>
-                </li>
-                <li className="list-disc mt-5">
-                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Central Public School
-                    </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">Till March 2020</div>
-                    <div className=" text-sm md:text-base">SSC - CBSE Board</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">Percentage &nbsp; 90.4%</div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </>
     )
 }
