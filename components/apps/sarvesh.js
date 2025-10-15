@@ -226,6 +226,16 @@ function Skills() {
 function Projects() {
     const project_list = [
         {
+            name: "SmartChain AI",
+            date: "Dec 2024",
+            link: "https://github.com/Sarvesh-Shelgaonkar/SmartChain-AI",
+            github: "https://github.com/Sarvesh-Shelgaonkar/SmartChain-AI",
+            description: [
+                "Developed an advanced AI-powered blockchain analytics platform that leverages machine learning algorithms to provide intelligent insights into cryptocurrency trends, smart contract analysis, and decentralized finance (DeFi) protocols. Features real-time data processing, predictive analytics, and automated trading signals.",
+            ],
+            domains: ["python", "ai", "blockchain", "machine-learning", "tensorflow", "web3"]
+        },
+        {
             name: "PrimeEstate Solutions",
             date: "Oct 2024",
             link: "https://mern-estate-5j9z.onrender.com/",
@@ -297,7 +307,12 @@ function Projects() {
         "fastapi": "green-400",
         "azure": "blue-500",
         "ai": "purple-600",
-        "next.js": "purple-600"
+        "next.js": "purple-600",
+        "python": "yellow-400",
+        "blockchain": "orange-400",
+        "machine-learning": "pink-500",
+        "tensorflow": "orange-600",
+        "web3": "blue-600"
     }
 
     return (
