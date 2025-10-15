@@ -236,6 +236,16 @@ function Projects() {
             domains: ["python", "ai", "blockchain", "machine-learning", "tensorflow", "web3"]
         },
         {
+            name: "Sweet Paradise",
+            date: "Nov 2024",
+            link: "https://github.com/Sarvesh-Shelgaonkar/Sweet_Paradise",
+            github: "https://github.com/Sarvesh-Shelgaonkar/Sweet_Paradise",
+            description: [
+                "Built a delightful e-commerce platform for sweet shop management featuring product catalog, shopping cart functionality, and order management system. Implemented responsive design with modern UI/UX principles, secure payment integration, and inventory tracking for confectionery items.",
+            ],
+            domains: ["react", "nodejs", "mongodb", "express", "javascript", "css"]
+        },
+        {
             name: "PrimeEstate Solutions",
             date: "Oct 2024",
             link: "https://mern-estate-5j9z.onrender.com/",
